@@ -3,24 +3,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Front Cat&Dog</title>
   </head>
   <body>
     <header>
-      <section id="barraSuperior">
-        <p>Grandes ofertas en comederos</p>
-        <p>Menú regional</p>
-        <ul>
+      <section class="barraSuperior">
+        <span>Grandes ofertas en comederos
+
+        <ul class="listadoInvisible idiomas">
           <li>Español</li>
           <li>$ARG</li>
         </ul>
+        </span>
       </section>
 
       <section id="menuPrincipal">
-        <img src="imagenLogo.jpg" alt="Imagen Logo" />
 
-        <nav>
-          <p>Menú principal</p>
+        <nav class="menuPrincipal">
+          <img src="/img/imagenLogo.jpg" alt="Imagen Logo" />
           <ul>
             <li>Categorias</li>
             <li>Pets</li>
@@ -32,39 +33,36 @@
     </header>
 
     <main>
-      <section id="banner">
-        <img
-          src="bowl-and-pet-daities-on-green-background.jpg"
-          alt="background"
-        />
-        <h2>¡Es un placer tenerte aquí!</h2>
+      <section class="banner">
+        <h2 id="tituloBanner">¡Es un placer tenerte aquí!</h2>
         <p>¡Comederos en descuento!</p>
-        <p>COMEDEROS</p>
+        <p class="fondoNaranja">COMEDEROS</p>
       </section>
 
       <section id="productos">
-        <img src="pawprint1.jpg" alt="patita" />
+        <img src="/img/pawprint1.jpg" alt="patita" />
         <h1>Productos destacados</h1>
         <p>Comederos - Accesorios - Comida</p>
 
         <article id="producto1">
-          <img src="churrasquito.jpg" alt="churrasquito" />
+          <img src="/img/churrasquito.jpg" alt="churrasquito" />
           <p>Juguete Churrasquito</p>
           <p>$150</p>
         </article>
         <article>
-          <img src="comedero.jpg" alt="comedero" />
+          <img src="/img/comedero.jpg" alt="comedero" />
           <p>Comedero para perro</p>
           <p>$250</p>
         </article>
         <article>
-          <img src="Huesito.jpg" alt="huesito" />
+          <img src="/img/Huesito.jpg" alt="huesito" />
           <p>Juguete Huesito</p>
           <p>$650</p>
         </article>
       </section>
     </main>
     <footer>
+
       <p>Todos los derechos reservados Front End</p>
     </footer>
   </body>

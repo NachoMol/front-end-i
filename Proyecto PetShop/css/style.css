@@ -1,0 +1,37 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+
+/* Elementos de Id */
+#tituloBanner{
+    background-color: white;
+}
+
+.barraSuperior{
+    background-color: rgba(34, 34, 34, 1);
+    color: rgba(243, 243, 243, 1);
+}
+
+.idiomas{
+    text-align: right;
+}
+
+.listadoInvisible{
+    list-style-type: none;
+}
+
+.menuPrincipal{
+    background-color: rgba(240, 168, 62, 1);
+}
+
+.banner{
+    text-align: center;
+    background-image: url('/img/bowl-and-pet-daities-on-green-background.jpg');
+    background-repeat: no-repeat;
+    height: 409px;
+    width: 1025px;
+}
+
+.fondoNaranja{
+    background-color: rgba(240, 168, 62, 1);
+    background-size: co;
+}
