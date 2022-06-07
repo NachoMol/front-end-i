@@ -13,9 +13,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.batman{
+    text-transform: uppercase;
+}
+
 /* Selector de clase */
 
 .box{
+    background-image: url(/img/fondoBatman.png);
+    background-color: rgba(243, 243, 243, 1);
     display: inline-block;
     height: 500px;
     width:30%;
@@ -31,12 +37,19 @@ body{
     background-color: rgba(28, 209, 176, 1);
     height: 38px;
     position: sticky;
+    top: 0px;
 }
 
 
 .footer{
     background-color: #00669F;
+    color: white;
     padding: 16px;
+}
+
+.foto{
+    position: relative;
+    padding-top: 126px;
 }
 
 .titulo{
@@ -45,3 +58,18 @@ body{
     font-size: 40px;
     padding: 28px;
 }
+
+.verMas{
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    font-weight: bold;
+    width: 128.78px;
+    margin: auto;
+    position: relative;
+    padding: 24.30px;;
+    
+}
+
+
+/* Selector de id */
+
