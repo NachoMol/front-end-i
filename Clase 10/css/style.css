@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Selector de etiqueta */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Selector de clase */
+
+.box{
+    display: inline-block;
+    height: 500px;
+    width:30%;
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.container{
+    margin: 292px 32px 202px;
+}
+
+.descuento{
+    background-color: rgba(28, 209, 176, 1);
+    height: 38px;
+    position: sticky;
+}
+
+
+.footer{
+    background-color: #00669F;
+    padding: 16px;
+}
+
+.titulo{
+    background-color: #00669F;
+    height: 101px;
+    font-size: 40px;
+    padding: 28px;
+}
