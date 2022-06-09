@@ -20,17 +20,20 @@ body{
 /* Selector de clase */
 
 .box{
-    background-image: url(/img/fondoBatman.png);
+    /* background-image: url(/img/fondoBatman.png); */
     background-color: rgba(243, 243, 243, 1);
-    display: inline-block;
     height: 500px;
-    width:30%;
-    margin: 0px 15px;
+    width: 300px;
+    /* display: flex; */
     text-align: center;
+    position: relative;
 }
 
 .container{
+    display: flex;
+    justify-content: space-evenly;
     margin: 292px 32px 202px;
+    position: relative;
 }
 
 .descuento{
@@ -48,8 +51,9 @@ body{
 }
 
 .foto{
-    position: relative;
     padding-top: 126px;
+    /* border-radius: 100%; */
+    position: relative;
 }
 
 .titulo{
@@ -62,12 +66,12 @@ body{
 .verMas{
     background-color: rgba(0, 102, 159, 1);
     color: white;
+    /* display: flex; */
     font-weight: bold;
     width: 128.78px;
     margin: auto;
     position: relative;
-    padding: 24.30px;;
-    
+    padding: 24.30px;
 }
 
 
