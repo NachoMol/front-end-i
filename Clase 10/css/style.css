@@ -22,6 +22,7 @@ body{
 
 .batman{
     text-transform: uppercase;
+    margin: 10px;
 }
 
 /* Selector de clase */
@@ -29,7 +30,7 @@ body{
 .box{
     /* background-image: url(/img/fondoBatman.png); */
     background-color: var(--colorTerciario);
-    height: 500px;
+    height: 600px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -42,6 +43,12 @@ body{
     justify-content: space-evenly;
     margin: 292px 32px 202px;
     position: relative;
+}
+
+.cabeceraTarjeta{
+    display: flex;
+    width: 300px;
+    height: 193px;
 }
 
 .descuento{
@@ -69,6 +76,25 @@ body{
     height: 120px;
     border-radius: 100%;
     position: relative;
+    margin-top: -70px;
+}
+
+.fondoTarjeta{
+    display: flex;
+}
+
+.like{
+    justify-content: flex-start;
+    height: 30px;
+    width: 28px;
+    z-index: 1;
+    position: absolute;
+    margin: 7px;
+}
+
+.quinn{
+    text-transform: uppercase;
+    margin: 10px;
 }
 
 .titulo{
