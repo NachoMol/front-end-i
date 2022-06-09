@@ -1,6 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Roboto:wght@300&display=swap');
 
+:root{
+    --colorPrimario: #00669F;
+    --colorSecundario: rgba(28, 209, 176, 1);
+    --colorTerciario: rgba(243, 243, 243, 1);
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -21,7 +28,7 @@ body{
 
 .box{
     /* background-image: url(/img/fondoBatman.png); */
-    background-color: rgba(243, 243, 243, 1);
+    background-color: var(--colorTerciario);
     height: 500px;
     width: 300px;
     display: flex;
@@ -38,7 +45,7 @@ body{
 }
 
 .descuento{
-    background-color: rgba(28, 209, 176, 1);
+    background-color: var(--colorSecundario);
     height: 38px;
     position: sticky;
     top: 0px;
@@ -51,7 +58,7 @@ body{
 
 
 .footer{
-    background-color: #00669F;
+    background-color: var(--colorPrimario);
     color: white;
     padding: 16px;
 }
@@ -65,19 +72,20 @@ body{
 }
 
 .titulo{
-    background-color: #00669F;
+    background-color: var(--colorPrimario);
     height: 101px;
     font-size: 40px;
     padding: 28px;
 }
 
 .verMas{
-    background-color: rgba(0, 102, 159, 1);
+    background-color: var(--colorPrimario);
     color: white;
     font-weight: bold;
     justify-self: center;
     position: relative;
     padding: 24.30px;
+    margin-bottom: 10px;
 }
 
 
