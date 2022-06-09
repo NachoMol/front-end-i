@@ -24,8 +24,9 @@ body{
     background-color: rgba(243, 243, 243, 1);
     height: 500px;
     width: 300px;
-    /* display: flex; */
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
 }
 
@@ -43,6 +44,11 @@ body{
     top: 0px;
 }
 
+.descSuper{
+    margin: auto;
+    padding: 0px 10px;
+}
+
 
 .footer{
     background-color: #00669F;
@@ -51,8 +57,10 @@ body{
 }
 
 .foto{
-    padding-top: 126px;
-    /* border-radius: 100%; */
+    /* padding-top: 126px; */
+    width: 122px;
+    height: 120px;
+    border-radius: 100%;
     position: relative;
 }
 
@@ -66,10 +74,8 @@ body{
 .verMas{
     background-color: rgba(0, 102, 159, 1);
     color: white;
-    /* display: flex; */
     font-weight: bold;
-    width: 128.78px;
-    margin: auto;
+    justify-self: center;
     position: relative;
     padding: 24.30px;
 }
