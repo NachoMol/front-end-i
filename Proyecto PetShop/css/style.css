@@ -1,5 +1,11 @@
 @import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 /* Elementos de etiqueta */
 
 footer{
@@ -7,30 +13,37 @@ footer{
     color: white;
 }
 
+header{
+    width: 100%;
+}
+
 /* Elementos de clase */
 
 .barraSuperior{
     background-color: rgba(34, 34, 34, 1);
     color: rgba(243, 243, 243, 1);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
 }
 
 .box{
     background-color: rgba(251, 250, 246, 1);
-;
-}
-
-.idiomas{
-    text-align: right;
 }
 
 
 
 .listadoInvisible{
+    display: flex;
     list-style-type: none;
+    align-items: flex-end;
+    padding-right: 30px;
 }
 
 .menuPrincipal{
     background-color: rgba(240, 168, 62, 1);
+    display: flex;
+    justify-content: space-between;
 }
 
 .banner{
@@ -47,6 +60,20 @@ footer{
     display: inline-block;
     margin: auto;
     position: relative;
+}
+
+.imagenLogo{
+    position: relative;
+    width: 166.38px;
+    height: 23px;
+    align-items: center;
+}
+
+.categoriasMenu{
+    list-style-type: none;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Elementos de Id */
