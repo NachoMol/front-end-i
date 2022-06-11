@@ -93,12 +93,18 @@ header{
 
 .productos{
     display: flex;
-    height: 1807px;
+    height: 900px;
     flex-direction: column; 
     align-items: space-around;
 }
 
 /* Elementos de Id */
+
+.patita{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
 
 #tituloBanner{
     background-color: white;
