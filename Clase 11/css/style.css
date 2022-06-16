@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --fondoNegro: rgba(34, 34, 34, 1);
+    --letraBlanca: rgba(243, 243, 243, 1);
+}
+
+/* Selector de Etiqueta */
+
+header{
+    background-color: var(--fondoNegro);
+    color: var(--letraBlanca);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Selector de clase */
+
+.imagenLogo{
+    padding: 10px;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 10px;
+}
+
+/* .navBar_items{
+    ;
+} */
