@@ -27,6 +27,8 @@ header{
 
 .mainWeb{
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav{
@@ -43,3 +45,4 @@ header{
 .navBar_items{
     padding: 5px;
 }
+
