@@ -25,13 +25,21 @@ header{
     padding: 10px;
 }
 
-.navBar{
-    display: flex;
-    flex-direction: row;
-    position: relative;
+.mainWeb{
     padding: 10px;
 }
 
-/* .navBar_items{
-    ;
-} */
+.nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navBar{
+    display: flex;
+    padding: 20px;
+}
+
+.navBar_items{
+    padding: 5px;
+}
