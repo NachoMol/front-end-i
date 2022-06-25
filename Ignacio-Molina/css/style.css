@@ -1,3 +1,7 @@
+/* Imports */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
 /* Propiedades generales */
 *{
@@ -7,5 +11,19 @@
 }
 
 :root{
-    
+
+    /* Colores */
+
+    --rojoBrillante: rgb (242, 95, 58);
+    --azulOscuro: rgb (35, 44, 81);
+    --azulGrisaceo: rgb (143, 148, 167);
+    --azulMuyOscuro: rgb (29, 30, 37);
+    --rojoMuyPalido: rgb (255, 239, 234);
+    --grisClaro: rgb (249, 249, 249);
+
+    /* Fonts */
+    --p: Font size: 16px;
+    --family: font-family: 'Be Vietnam Pro', sans-serif;
+
 }
+
