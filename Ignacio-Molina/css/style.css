@@ -24,6 +24,8 @@
     --p: 16px;
     --family: 'Be Vietnam Pro', sans-serif;
 
+    /* Propiedades generales --> otras caracteristicas */
+    --espaciado: 1rem;
 }
 
 /* Elementos de bloque */
@@ -56,7 +58,12 @@ body{
 .box1{
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.div1{
+    position: relative;
+    padding: 12rem;
 }
 
 .itemMenu{
@@ -71,4 +78,12 @@ body{
 .menu{
     display: flex;
     justify-items: space-evenly;
+}
+
+.titulo{
+    margin-bottom: var(--espaciado);
+}
+
+.textoTitulo{
+    margin-bottom: var(--espaciado);
 }
