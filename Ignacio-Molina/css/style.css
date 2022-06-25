@@ -55,15 +55,15 @@ body{
     width: 7rem;
 }
 
-.box1{
+.box{
     align-items: center;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 2rem;
 }
 
 .div1{
     position: relative;
-    padding: 12rem;
 }
 
 .itemMenu{
@@ -78,6 +78,11 @@ body{
 .menu{
     display: flex;
     justify-items: space-evenly;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .titulo{
