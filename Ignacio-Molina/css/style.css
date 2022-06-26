@@ -66,6 +66,11 @@ body{
     padding-right: 7rem;
 }
 
+.box4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .div1{
     position: relative;
 }
@@ -92,6 +97,12 @@ body{
 
 .titulo{
     margin-bottom: var(--espaciado);
+}
+
+.tituloExperiencias{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .textoTitulo{
