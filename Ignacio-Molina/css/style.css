@@ -62,6 +62,10 @@ body{
     padding-top: 2rem;
 }
 
+.box2{
+    padding-right: 7rem;
+}
+
 .div1{
     position: relative;
 }
@@ -80,9 +84,10 @@ body{
     justify-items: space-evenly;
 }
 
-.section2{
+.seccion2{
     display: flex;
     justify-content: space-evenly;
+    margin: 4rem 0rem;
 }
 
 .titulo{
