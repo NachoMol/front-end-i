@@ -37,9 +37,11 @@ body{
 }
 
 footer{
+    align-items: center;
     background-color: var(--azulMuyOscuro);
     color: var(--blanco);
     display: flex;
+    justify-content: space-between;
     height: 8rem;
     position: relative;
     padding: 3rem;
@@ -80,6 +82,16 @@ header{
     margin: 3rem 0rem;
 }
 
+.botonEnviarMail{
+    background-color: var(--rojoBrillante);
+    border-style: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: var(--blanco);
+    height: 2rem;
+    width: 3rem;
+}
+
 .box{
     align-items: center;
     display: flex;
@@ -100,10 +112,22 @@ header{
     position: relative;
 }
 
-.div1Footer{
+.enviarMail{
+    height: 2rem;
+    border-radius: 25%;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.seccion1Footer{
     display: flex;
     flex-direction: column;
     margin-right: 2rem;
+}
+
+.seccion2Footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 4rem;
 }
 
 .itemMenu{
@@ -125,6 +149,10 @@ header{
     width: 120.34px;
     height: 20px;
     color: var(--blanco);
+}
+
+.listaFooter{
+    margin: 0rem 5rem;
 }
 
 .menu{
