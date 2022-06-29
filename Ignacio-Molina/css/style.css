@@ -25,7 +25,9 @@
     --family: 'Be Vietnam Pro', sans-serif;
 
     /* Propiedades generales --> otras caracteristicas */
-    --espaciado: 1rem;
+    --espaciado-abajo: 1rem;
+    --margen-general: 4rem;
+
 }
 
 /* Elementos de bloque */
@@ -33,7 +35,6 @@ body{
     color: var(--azulOscuro);
     font-size: 16px;
     font-family: var(--family);
-    margin: 4rem;
     background-image: url(../img/bg-tablet-pattern.svg), url(../img/bg-tablet-pattern.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: calc(100% + 200px) -200px, -400px 800px;
@@ -56,6 +57,7 @@ header{
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
+    margin: var(--margen-general);
 }
 
 /* Elementos de clase */
@@ -145,10 +147,12 @@ header{
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 
-.experiencia{
+.experiencias{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FAFAFA;;
+    margin: 0.5rem;
 }
 
 .itemMenu{
@@ -191,11 +195,25 @@ header{
     display: flex;
 }
 
+.seccion1{
+    margin: var(--margen-general);
+}
+
 .seccion2{
     display: flex;
     justify-content: space-evenly;
-    margin: 4rem 0rem;
+    margin: var(--margen-general);
 }
+
+.seccion4{
+    align-items: center;
+    background-color: var(--rojoBrillante);
+    display: flex;
+    justify-content: space-around;
+    height: 7rem;
+    width: 100%;
+}
+
 .seccion1Footer{
     display: flex;
     flex-direction: column;
@@ -208,14 +226,7 @@ header{
     margin: 0rem 4rem;
 }
 
-.seccion4{
-    align-items: center;
-    background-color: var(--rojoBrillante);
-    display: flex;
-    justify-content: space-around;
-    height: 7rem;
-    width: 100%;
-}
+
 
 .titulo{
     margin-bottom: var(--espaciado);
@@ -231,6 +242,7 @@ header{
 
 .tituloSeccion2{
     margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 .textoTitulo{
