@@ -309,7 +309,7 @@ button:hover{
 
 /* Adaptación 375px */
 
-@media (max-width: 375px){
+@media (max-width: 800px){
 
 
     body{
@@ -340,7 +340,6 @@ button:hover{
 
     .box1{
         flex-direction: column;
-        justify-content: center;
     }
 
     .box2{
@@ -372,11 +371,14 @@ button:hover{
 
 
     .seccion1{
-        width: 100vw;
+        width: 80vw;
+        align-content: center;
+        margin: auto;
     }
 
     .seccion2{
         flex-direction: column;
+        margin: auto;
     }
 
     .seccion3{
@@ -397,6 +399,11 @@ button:hover{
         margin: 30px;
     }
 
+    .titulo{
+        font-size: 2rem;
+        width: 100vw;
+    }
+
     .tituloItemSeccion2{
         background-color: var(--rojoBrillante);
         width: 100vw;
@@ -404,10 +411,6 @@ button:hover{
 
     #botonHeader{
         display: none;
-    }
-
-    #copyright{
-        order: 5;
     }
 
     #logoFooter{
