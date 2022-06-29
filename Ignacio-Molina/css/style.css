@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
+
 /* Propiedades generales */
 *{
     box-sizing: border-box;
@@ -60,6 +61,10 @@ header{
 }
 
 /* Elementos de clase */
+
+.bars{
+    display: none;
+}
 
 .boton{
     background-color: var(--rojoBrillante);
@@ -171,7 +176,7 @@ header{
 
 .itemSeccion2{
     margin-top: 0.5rem;
-    margin-left:7%;
+    margin-left:10%;
 }
 
 .iconRedes{
@@ -289,4 +294,34 @@ button:hover{
 
 .logo,.logoFooter:hover{
     cursor: pointer;
+}
+
+/* Adaptación Mobile */
+
+@media (min-width: 375px) and (max-width: 1024px){
+
+    body{
+        align-content: center;
+    }
+
+    header{
+        margin: 3rem;
+        width: 100vw;
+    }
+
+
+    /* Elementos de clase */
+
+    .bars{
+        display: block;
+        height: 2rem;
+    }
+
+    .boton{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
 }
