@@ -137,13 +137,6 @@ header{
 
 }
 
-.copyright{
-    color: gray;
-    font-weight: 100;
-    font-size: 0.6rem;
-    margin-top: 2rem;
-}
-
 .div1{
     position: relative;
 }
@@ -193,12 +186,6 @@ header{
 .logo{
     width: 120.34px;
     height: 20px;
-}
-
-.logoFooter{
-    width: 120.34px;
-    height: 20px;
-    color: var(--blanco);
 }
 
 .listaFooter{
@@ -277,6 +264,18 @@ header{
 
 /* Elementos de id  */
 
+#copyright{
+    color: gray;
+    font-weight: 100;
+    font-size: 0.6rem;
+    margin-top: 2rem;
+}
+
+#logoFooter{
+    width: 120.34px;
+    height: 20px;
+    color: var(--blanco);
+}
 
 #primerDivSeccion2{
     margin-top: 0px;
@@ -365,6 +364,13 @@ button:hover{
         height: 5rem;
     }
 
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+
     .seccion1{
         width: 100vw;
     }
@@ -377,6 +383,20 @@ button:hover{
         width: 100vw;
     }
 
+    .seccion4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccion1Footer{
+        order: 3;
+    }
+
+    .seccion3Footer{
+        order: 0;
+        margin: 30px;
+    }
+
     .tituloItemSeccion2{
         background-color: var(--rojoBrillante);
         width: 100vw;
@@ -384,5 +404,13 @@ button:hover{
 
     #botonHeader{
         display: none;
+    }
+
+    #copyright{
+        order: 5;
+    }
+
+    #logoFooter{
+        order: 4;
     }
 }
