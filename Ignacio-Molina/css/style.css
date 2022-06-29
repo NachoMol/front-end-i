@@ -98,7 +98,7 @@ header{
     width: 3rem;
 }
 
-.box{
+.box1{
     align-items: center;
     display: flex;
     justify-content: space-evenly;
@@ -160,7 +160,8 @@ header{
 }
 
 .itemSeccion2{
-    margin-left: 12%;
+    margin-top: 0.5rem;
+    margin-left:7%;
 }
 
 .iconRedes{
@@ -229,7 +230,7 @@ header{
 
 
 .titulo{
-    margin-bottom: var(--espaciado);
+    margin-bottom: var(--espaciado-abajo);
     width: 50%;
     font-size: 3rem;
 }
@@ -245,8 +246,13 @@ header{
     font-size: 2rem;
 }
 
+.tituloSeccion4{
+    color: var(--blanco);
+    font-weight: 400;
+}
+
 .textoTitulo{
-    margin-bottom: var(--espaciado);
+    margin-bottom: var(--espaciado-abajo);
 }
 
 
