@@ -303,15 +303,7 @@ button:hover{
 
 /* ------------MEDIA QUERIES ------------ */
 
-/*Adaptación 1440px*/
-
-@media (min-width: 1440px){
-    html{
-        width: 100vw;
-    }
-}
-
-/* Adaptación 800px */
+/* Adaptación Mobile (375px) */
 
 @media (min-width: 375px) and (max-width: 800px){
 
@@ -333,7 +325,7 @@ button:hover{
     }
 
     .chart{
-        width: 100vw;
+        width: 80vw;
     }
 
     .experienciasMobile, .menu{
@@ -346,6 +338,10 @@ button:hover{
 
     .box2{
         margin-bottom: 20px;
+        padding: 0px;
+        align-content: center;
+        text-align: center;
+
     }
 
     .box3{
@@ -357,7 +353,10 @@ button:hover{
     }
 
     .div1{
+        flex-direction: column;
+        margin-bottom: 50px;
         order: 1;
+        text-align: center;
     }
 
     .elipsisMobile{
@@ -395,6 +394,8 @@ button:hover{
         display: flex;
         flex-direction: column;
         padding-bottom: 10px;
+        text-align: center;
+        height: auto;
     }
 
     .seccion1Footer{
@@ -421,6 +422,10 @@ button:hover{
     .tituloItemSeccion2{
         background-color: var(--rojoBrillante);
         width: 100vw;
+    }
+
+    .tituloSeccion4{
+        padding: 2rem 2rem;
     }
 
 /* Elementos de id */
