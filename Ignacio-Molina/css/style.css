@@ -311,10 +311,11 @@ button:hover{
     body{
         display: flex;
         flex-direction: column;
+        background-position:inherit 
     }
 
     header{
-        margin: 3rem;
+    margin: 2rem 30px   
     }
 
 /* Elementos de clase */
@@ -337,7 +338,7 @@ button:hover{
     }
 
     .box2{
-        margin-bottom: 20px;
+        margin: 1rem 2rem 2rem 2rem;
         padding: 0px;
         align-content: center;
         text-align: center;
@@ -361,7 +362,8 @@ button:hover{
 
     .elipsisMobile{
         display: block;
-        height: 5rem;
+        height: 3rem;
+        margin-top: 2rem;
     }
 
     .footer{
@@ -420,12 +422,16 @@ button:hover{
     }
 
     .tituloItemSeccion2{
-        background-color: var(--rojoBrillante);
+        background-color: #ffefeb;
         width: 100vw;
     }
 
     .tituloSeccion4{
         padding: 2rem 2rem;
+    }
+
+    .textoTitulo{
+        margin: 1rem 3rem;
     }
 
 /* Elementos de id */
