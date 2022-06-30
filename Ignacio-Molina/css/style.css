@@ -235,7 +235,7 @@ p{
 .seccion1Footer{
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
+    margin: 0rem 2rem;
 }
 
 .seccion2Footer{
